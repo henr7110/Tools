@@ -1,5 +1,5 @@
 """Author: Henrik Pinholt
-
+Created: Friday 6. July 2018 kl. 14.09
 Script that grabs a .xyz position file containing a unit cell and translates the
 cell in all directions n times.
 """

@@ -1,4 +1,6 @@
-"""Small library of functions for thermodynamic computations and to check out
+"""Author: Henrik Pinholt
+Created: 4. november 2017 kl. 23.30
+Small library of functions for thermodynamic computations and to check out
 sympy features
 """
 
