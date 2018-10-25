@@ -35,7 +35,7 @@ def Better(own,other):
     at = other[gradeconv[own]]
     above = float(sum([other[i] for i in range(len(other)) if i > gradeconv[own]]))
     return (below/(below+above+at),at/(below+above+at),(above/(below+above+at)))
-    
+
 below,at,above=[],[],[]
 for o,k in zip(own,karakterer):
     i = Better(o,k)

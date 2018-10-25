@@ -57,3 +57,6 @@ def rootfinder(func,xmin,xmax):
         print ("root " + str(i) + " = " + str(roots[i]))
     return roots
     #plt.plot(range(len(overprog[0])),overprog[0])
+def f(x):
+    return np.cos(x)
+rootfinder(f,-10,10)
